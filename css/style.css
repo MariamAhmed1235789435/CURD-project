@@ -1,0 +1,91 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(53, 46, 40);
+  }
+
+h1 {
+  font-size: 50px;
+  color: #FFF;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  background-color: #F2858E;
+  width: 100%;
+  height: 25px;
+  z-index: -1;
+  bottom: 6px;
+  left: 0;
+  transition: height 1s;
+  border-radius: 8px;
+}
+
+h1:hover::before {
+  height: 50px;
+}
+/* f278bb */
+
+h2 {
+    font-size: 25px;
+    background-image: linear-gradient(to right, #f29877, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
+  .btn-submit{
+    background-color: #e75a5a;
+    color: white;
+  }
+  .btn-submit:hover{
+    background-color: #fb2c2c;
+    color: #000000;
+
+  }
+  .btn-visit {
+    background-color: rgb(126, 196, 126);
+    color: #fff;
+    border: 1px solid rgba(126, 196, 126, 0.47);
+    box-shadow: 4px 4px 0 rgba(126, 196, 126, 0.47);
+    padding: 6px 12px;
+    border-radius: 50px;
+    transition: all 1s;
+  }
+  .btn-visit:hover {
+    background-color: #46af46;
+  }
+  
+  .btn-delete  {
+    background-color: #e75a5a;
+    color: #fff;
+    border: 1px solid rgba(231, 90, 90, 0.47);
+    box-shadow: 4px 4px 0 rgba(231, 90, 90, 0.47);
+    padding: 6px 12px;
+    border-radius: 50px;
+    transition: all 1s;
+  }
+  
+  .btn-delete:hover {
+    background-color: #fb2c2c;
+  }
+  
+
+  .table thead th {
+    background-color: #F2858E;
+    color: #fff;
+  }
+  .bookmark-body{
+    border-top: 3px dashed rgba(231, 90, 90, 0.47);
+    border-bottom: 3px dashed rgba(231, 90, 90, 0.47);
+  }  
+
+  .table tr{
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
